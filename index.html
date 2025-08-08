@@ -73,7 +73,7 @@
 <body>
     <!-- 主页面内容 -->
     <div id="mainContent">
-        <img src="images/cat.png" alt="1" class="cat-image" id="catImage">
+        <img src="images/cat.PNG" alt="1" class="cat-image" id="catImage">
         <div class="message">你是猪吗？</div>
         <div class="buttons">
             <button class="button yes" id="yesButton">是</button>
@@ -83,13 +83,13 @@
  
     <!-- “喜欢你”页面内容 -->
     <div id="yesContent" class="hidden">
-        <img src="images/cat-yes.png" alt="2" class="final-image">
+        <img src="images/cat-yes.PNG" alt="2" class="final-image">
         <div class="final-message">耶！！！你是一只小猪！！！</div>
     </div>
  
     <!-- “可是我喜欢你啊”页面内容 -->
     <div id="confessionContent" class="hidden">
-        <img src="images/love.png" alt="3" class="final-image">
+        <img src="images/love.PNG" alt="3" class="final-image">
         <div class="final-message">我不管你就是猪！！！</div>
     </div>
  
@@ -114,7 +114,7 @@
         noButton.addEventListener('click', () => {
             if (!isImageChanged) {
                 // 第一次点击时替换小猫图片
-                catImage.src = 'images/cat2.png'; // 替换为 cat2.png
+                catImage.src = 'images/cat2.PNG'; // 替换为 cat2.png
                 isImageChanged = true; // 标记图片已替换
             }
  
@@ -147,4 +147,5 @@
     </script>
 </body>
 </html>
+
 
